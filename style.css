@@ -1,0 +1,139 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: gilroy;
+          font-weight: 500;
+          font-style: normal;
+}
+html,body{
+          height: 100%;
+          width: 100%;
+          background: black;
+          color: white;
+          scroll-behavior: smooth;
+          
+}
+#main{
+          height: 100%;
+          width: 100%;
+}
+#body1
+{
+          height: 90px;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 30px 50px;
+}
+#page2{
+          display: flex;
+         gap: 55px;
+
+}
+#page2 h3 a{
+          text-decoration: none;
+          color: #fff;
+}
+#page2 h3 a{
+          border-bottom: 3px solid transparent;
+          transition: border-bottom 1.3s ease-in;
+}
+#page2 h3 a:hover{
+          border-bottom: 3px solid white;
+}
+.dark{
+          background-color: black;
+          color: white;
+}
+.light{
+          background-color: #fff;
+          color: black;
+}
+.light #body1 h3 a{
+          background-color: #fff;
+          color: black;
+}
+.light .mybtn{
+          background-color: black;
+          color: #fff;
+}
+.light .mybtn:hover{
+          background-color: rgb(129, 137, 20);
+          color: #fff;
+}
+.home{
+          height: 420px;
+          width: 100%;
+}
+.image{
+          display: flex;
+          justify-content: center;
+}
+.myimag{
+          height: 130px;
+          width: 130px;
+          border-radius: 50%;
+}
+.line1{
+          text-align: center;
+}
+.line2{
+          text-align: center;
+          font-size: 30px;
+}
+.line3{
+          text-align: center;
+          font-size: 30px;
+}
+.btn{
+          display: flex;
+          justify-content: center;
+}
+.mybtn{
+          height: 50px;
+          width: 150px;
+          font-size: 1.2rem;
+          border-radius: 20px;
+          border: none;
+          background-color: #fff;
+          color: black;
+}
+.mybtn:hover{
+          background-color: wheat;
+          cursor: pointer;
+}
+.projects{
+          height: 500px;
+          width: 100%;
+          margin-top: 20px;
+          text-align: center;
+}
+.boxes{
+          display: flex;
+          justify-content: space-around;
+          margin-top: 20px;
+          overflow: hidden;
+}
+.box{
+          height: 450px;
+          width: 360px;
+          border-radius: 30px;
+          border: 3px solid white;
+}
+.box .i{
+          height: 100%;
+          width: 100%;
+          border-radius: 30px;
+}
+.box .ken{
+          height: 100%;
+          width: 100%;
+          border-radius: 30px;
+}
+.box .me{
+          height: 100%;
+          width: 100%;
+          border-radius: 30px;
+}
